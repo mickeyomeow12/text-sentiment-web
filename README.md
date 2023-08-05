@@ -22,11 +22,17 @@ IMDB Dataset of 50K Movie Reviews
 python 相关依赖：
 
 Flask==2.2.5
+
 numpy==1.19.2
+
 pandas==1.1.2
+
 scikit_learn==0.23.2
+
 torch==1.6.0
+
 tqdm==4.49.0
+
 transformers==4.30.2
 
 命令行中执行：
