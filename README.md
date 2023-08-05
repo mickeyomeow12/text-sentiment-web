@@ -22,17 +22,12 @@ IMDB Dataset of 50K Movie Reviews
 python 相关依赖：
 
 Flask==2.2.5<br> 
-numpy==1.19.2
-
-pandas==1.1.2
-
-scikit_learn==0.23.2
-
-torch==1.6.0
-
-tqdm==4.49.0
-
-transformers==4.30.2
+numpy==1.19.2<br> 
+pandas==1.1.2<br> 
+scikit_learn==0.23.2<br> 
+torch==1.6.0<br> 
+tqdm==4.49.0<br> 
+transformers==4.30.2<br> 
 
 命令行中执行：
 
@@ -40,14 +35,10 @@ transformers==4.30.2
 
 运行train.py脚本在您的数据集上训练BERT模型。
 
-```
-python train.py
-```
+```python train.py```
 
 运行app.py脚本启动Flask应用。
-```
-python app.py
-```
+```python app.py```
 
 # Demo展示
 网页展示效果
