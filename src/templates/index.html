@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Text Sentiment Prediction</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="mt-5">Text Sentiment Prediction</h1>
+        <form action="/predict" method="post">
+            <div class="mb-3">
+                <p for="sentence" class="form-label">Play around with my sentiment analyzer, below:</p>
+                <input type="text" class="form-control" id="sentence" name="sentence" value=""
+                       placeholder="Type a sentence here...">
+            </div>
+            <input type="submit" class="btn btn-primary" value="Submit">
+        </form>
+
+        {% if sentence %}
+        <h1 class="mt-5">Result</h1>
+        <div class="mb-3">
+            <p>Sentence: {{ sentence }}</p>
+            <p>Positive prediction: {{ positive }}</p>
+            <p>Negative prediction: {{ negative }}</p>
+            <p>Time taken: {{ time_taken }}</p>
+            <p>Result Tag: {{ result }}</p>
+        </div>
+        {% endif %}
+        <h1 class="mt-5">Example Sentences</h1>
+        <div class="mb-3">
+            <p>Ps:You can click the following sentences ,it will go to the input so you don't have to enter by yourself
+            </p>
+            <p onclick="copyToInput(this)">1. "Life has come to standstill due to this pandemic, milllions have lost
+                their job"</p>
+            <p onclick="copyToInput(this)">2. "This restaurant is my favorite in the city. The food is delicious and the
+                service is excellent."</p>
+            <p onclick="copyToInput(this)">3. "I love this product! It has made a huge difference in my daily routine."
+            </p>
+            <p onclick="copyToInput(this)">4. "I was very disappointed with the service at this restaurant. The staff
+                was not helpful and the food was terrible."</p>
+            <p onclick="copyToInput(this)">5. "The movie was really boring. I fell asleep halfway through."</p>
+            <p onclick="copyToInput(this)">6. "This is the worst product I've ever bought. It's a complete waste of
+                money."</p>
+            <p onclick="copyToInput(this)">7. "Cocacola makes my day a lot easier."</p>
+        </div>
+    </div>
+
+
+    <script>
+        function copyToInput(element) {
+            var text = element.innerText;
+            var cleanText = text.substring(3); // Remove the first three characters ("x. ")
+            var finalText = cleanText.replace(/"/g, ''); // Remove all double quotes
+            document.getElementById('sentence').value = finalText;
+        }
+
+    </script>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
