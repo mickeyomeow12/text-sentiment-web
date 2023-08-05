@@ -6,11 +6,13 @@ Demo地址：
 
 # 项目说明
 本项目使用Bert_base_uncased建模情感分析模型，结合IMDB电影评论数据集，用于探究并预测文本数据背后的情感态度。
+
 此项目用于23春<计算机系统结构>课程实践作业
 
 # 数据集
 
 IMDB Dataset of 50K Movie Reviews
+
 下载地址：https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
 
