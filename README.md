@@ -10,7 +10,7 @@ Demo地址：
 此项目用于23春<计算机系统结构>课程实践作业
 
 # 模型
-Bert_base_uncased<br>
+Bert_base_uncased
 
 下载地址:https://huggingface.co/bert-base-uncased
 
