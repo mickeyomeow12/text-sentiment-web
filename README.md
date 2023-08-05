@@ -24,6 +24,8 @@ IMDB Dataset of 50K Movie Reviews
 Path:/input
 
 # 模型效果
+|Model|	Accuracy|	Precision|	Recall	|F1|
+|BERT| (base-uncased)	||	|		||
 
 
 
@@ -50,6 +52,7 @@ transformers==4.30.2<br>
 ```python train.py```
 
 运行app.py脚本启动Flask应用。
+
 ```python app.py```
 
 # Demo展示
