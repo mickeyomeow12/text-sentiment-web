@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="root@hz-t2.matpool.com:26918 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/myproject" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@hz-t2.matpool.com:27464 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_344" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@hz-t2.matpool.com:27464 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/myproject" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@hz-t2.matpool.com:27464 password (3)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/myproject" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@hz-t2.matpool.com:29359 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/myproject" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@hz-t3.matpool.com:27128 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_237" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@hz-t3.matpool.com:27128 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/myproject" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@hz.matpool.com:29941 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/myproject" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
