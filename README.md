@@ -4,7 +4,7 @@
 
 Demo地址：
 
-效果：![效果]("https://github.com/mickeyomeow12/text-sentiment-web/blob/master/Untitled%20%E2%80%91%20Made%20with%20FlexClip.gif")
+效果：![效果](https://github.com/mickeyomeow12/text-sentiment-web/blob/master/ezgif.com-video-to-gif.gif)
 
 # 项目说明
 本项目使用Bert_base_uncased建模情感分析模型，结合IMDB电影评论数据集，用于探究并预测文本数据背后的情感态度。
