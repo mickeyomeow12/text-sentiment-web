@@ -26,7 +26,8 @@ IMDB Dataset of 50K Movie Reviews
 
 下载地址：https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
-Path:/input
+![dataset](https://github.com/mickeyomeow12/text-sentiment-web/blob/master/1.png)
+![dataset2](https://github.com/mickeyomeow12/text-sentiment-web/blob/master/2.png)
 
 # 模型效果
 |Model|	Accuracy|	Precision|	Recall	|F1|
