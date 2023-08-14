@@ -16,7 +16,8 @@ Demo地址：
 # 模型
 Bert_base_uncased
 
-下载地址:https://huggingface.co/bert-base-uncased
+Roberta_base
+
 
 Path:/input
 
@@ -30,8 +31,11 @@ IMDB Dataset of 50K Movie Reviews
 ![dataset2](https://github.com/mickeyomeow12/text-sentiment-web/blob/master/2.png)
 
 # 模型效果
-|Model|	Accuracy|	Precision|	Recall	|F1|
-|BERT| (base-uncased)	||	|		||
+| Model             | Accuracy | F1     |
+|-------------------|----------|--------|
+| Bert_base_uncased | 0.9154   | 0.9198 |
+| RoBERTa           | 0.9023   | 0.9164 |
+|                   |          |        |
 
 
 
