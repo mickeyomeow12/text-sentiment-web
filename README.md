@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 Demo地址：
-
+http://134.175.230.159:5000/predict
 
 
 ![效果](https://github.com/mickeyomeow12/text-sentiment-web/blob/master/ezgif.com-video-to-gif.gif)
