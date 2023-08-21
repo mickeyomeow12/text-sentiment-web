@@ -20,7 +20,7 @@ http://134.175.230.159:5000/predict
 Bert_base_uncased
 
 <div align="center">
-<img src=https://media.geeksforgeeks.org/wp-content/uploads/20200422012400/Single-Sentence-Classification-Task.png/>
+<img src=https://gluon-nlp.mxnet.io/_images/bert-sentence-pair.png/>
 </div>
 
 
@@ -28,7 +28,7 @@ Bert_base_uncased
 RoBERTa_base
 
 <div align="center">
-<img src=https://production-media.paperswithcode.com/models/roberta-classification.png-0000000936-4dce6670.png width=60%/>
+<img src=https://production-media.paperswithcode.com/models/roberta-classification.png-0000000936-4dce6670.png width=40%/>
 </div>
 
 # 数据集
