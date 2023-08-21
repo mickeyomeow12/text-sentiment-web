@@ -18,10 +18,13 @@ http://134.175.230.159:5000/predict
 
 # 模型
 Bert_base_uncased
-![bert](https://media.geeksforgeeks.org/wp-content/uploads/20200422012400/Single-Sentence-Classification-Task.png)
+
+![bert](https://media.geeksforgeeks.org/wp-content/uploads/20200422012400/Single-Sentence-Classification-Task.png  width=200 height=100)
+
 RoBERTa_base
-![RoBERTa](https://production-media.paperswithcode.com/models/roberta-classification.png-0000000936-4dce6670.png)
-Path:/input
+
+![RoBERTa](https://production-media.paperswithcode.com/models/roberta-classification.png-0000000936-4dce6670.png  width=200 height=100)
+
 
 # 数据集
 
