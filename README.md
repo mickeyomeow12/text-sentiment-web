@@ -19,14 +19,14 @@ http://134.175.230.159:5000/predict
 # 模型
 Bert_base_uncased
 
-<div align="center">
-<img src=https://media.geeksforgeeks.org/wp-content/uploads/20200422012400/Single-Sentence-Classification-Task.png />
+<div align="left">
+<img src=https://media.geeksforgeeks.org/wp-content/uploads/20200422012400/Single-Sentence-Classification-Task.png width=60%/>
 </div>
 
 
 RoBERTa_base
 
-<div align="center">
+<div align="left">
 <img src=https://production-media.paperswithcode.com/models/roberta-classification.png-0000000936-4dce6670.png width=40%/>
 </div>
 
