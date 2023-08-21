@@ -20,9 +20,8 @@ http://134.175.230.159:5000/predict
 Bert_base_uncased
 
 <div align="center">
-<img src=https://media.geeksforgeeks.org/wp-content/uploads/20200422012400/Single-Sentence-Classification-Task.png/>
+<img src=https://media.geeksforgeeks.org/wp-content/uploads/20200422012400/Single-Sentence-Classification-Task.png />
 </div>
-
 
 
 RoBERTa_base
