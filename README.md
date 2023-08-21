@@ -77,11 +77,13 @@ IMDB Dataset of 50K Movie Reviews
 
 下载地址：https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
-![dataset](https://github.com/mickeyomeow12/text-sentiment-web/blob/master/1.png)
-
 
 <div align="left">
-<img src=https://github.com/mickeyomeow12/text-sentiment-web/blob/master/2.png width=40%/>
+<img src=https://github.com/mickeyomeow12/text-sentiment-web/blob/master/1.png width=60%/>
+</div>
+
+<div align="left">
+<img src=https://github.com/mickeyomeow12/text-sentiment-web/blob/master/2.png width=60%/>
 </div>
 
 # 模型
