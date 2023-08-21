@@ -12,40 +12,7 @@ http://134.175.230.159:5000/predict
 此项目用于23春<计算机系统结构>课程实践作业
 
 
-本项目使用Bert_base_uncased&RoBERTa建模情感分析模型，结合IMDB电影评论数据集，用于探究并预测文本数据背后的情感态度。用于预测任何给定文本的情感为积极或消极。
-
-
-
-# 模型
-Bert_base_uncased
-
-<div align="left">
-<img src=https://media.geeksforgeeks.org/wp-content/uploads/20200422012400/Single-Sentence-Classification-Task.png width=40%/>
-</div>
-
-
-RoBERTa_base
-
-<div align="left">
-<img src=https://production-media.paperswithcode.com/models/roberta-classification.png-0000000936-4dce6670.png width=40%/>
-</div>
-
-# 数据集
-
-IMDB Dataset of 50K Movie Reviews
-
-下载地址：https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
-
-![dataset](https://github.com/mickeyomeow12/text-sentiment-web/blob/master/1.png)
-![dataset2](https://github.com/mickeyomeow12/text-sentiment-web/blob/master/2.png)
-
-# 模型效果
-| Model             | Accuracy | F1     |
-|-------------------|----------|--------|
-| Bert_base_uncased | 0.9154   | 0.9198 |
-| RoBERTa           | 0.9023   | 0.9164 |
-|                   |          |        |
-
+本项目使用Bert&RoBERTa建模情感分析模型，结合IMDB电影评论数据集，用于探究并预测文本数据背后的情感态度。用于预测任何给定文本的情感为积极或消极。
 
 
 # 应用实现
@@ -98,6 +65,50 @@ transformers==4.30.2<br>
 运行app.py脚本启动Flask应用。
 
 ```python app.py```
+
+
+
+# 数据集
+
+IMDB Dataset of 50K Movie Reviews
+
+下载地址：https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
+![dataset](https://github.com/mickeyomeow12/text-sentiment-web/blob/master/1.png)
+![dataset2](https://github.com/mickeyomeow12/text-sentiment-web/blob/master/2.png)
+
+# 模型
+## Bert_base_uncased
+
+Bert模型是Google在2018年10月发布的语言模型。BERT 架构由多个堆叠在一起的 Transformer 编码器组成。每个 Transformer 编码器都封装了两个子层：一个自注意力层和一个前馈层。
+
+本项目采用BERT base 模型，由 12 层 Transformer 编码器、12 个注意力头、768 个隐藏大小和 110M 参数组成。在将其用作 BERT 模型的输入之前，需要通过添加 [CLS] 和 [SEP] 标记来对 tokens 的 sequence 重新编码。每个位置输出一个大小为 hidden_ size的向量（BERT Base 中为 768）。使用标准的 PyTorch 训练循环来训练模型。用 Adam 作为优化器，而学习率设置为3e-5。使用分类交叉熵作为我们的损失函数。最后在测试数据上评估模型
+
+首先通过将数据集中的句子转换为一系列tokens (words)即tokenization。
+
+<div align="left">
+<img src=https://media.geeksforgeeks.org/wp-content/uploads/20200422012400/Single-Sentence-Classification-Task.png width=40%/>
+</div>
+
+
+
+## RoBERTa_base
+
+在config.py中切换roberta_base的路径
+
+<div align="left">
+<img src=https://production-media.paperswithcode.com/models/roberta-classification.png-0000000936-4dce6670.png width=40%/>
+</div>
+
+# 模型效果
+| Model             | Accuracy | 
+|-------------------|----------|
+| Bert_base_uncased | 0.9154   | 
+| RoBERTa           | 0.9363   |
+
+
+分析：Roberta比Bert的效果好，Roberta对于长文本分类确实是Bert进阶
+
 
 
 
